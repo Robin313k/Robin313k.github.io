@@ -11,23 +11,22 @@ body {
 /* Header Styles */
 header {
     text-align: center;
-    padding: 20px;
     border-bottom: 2px solid #ccc;
 }
 
 .title-box {
     background-color: #A52A2A; /* Brick red */
     color: white;
-    padding: 20px;
-    border-radius: 10px;
-    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
+    width: 100%;
 }
 
 /* Title Styles */
 .title-box h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 4em;
 }
 
 /* Navigation Styles */
@@ -48,10 +47,51 @@ nav a:hover {
 
 /* Main Content Styles */
 main {
-    padding: 20px;
-    max-width: 800px;
-    margin: 20px auto;
+    padding: 0px;
+    max-width: 100%;
+    margin: 0px;
     flex: 1; /* Allows the main content to stretch and fill available space */
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.grid-layout {
+display: grid;
+grid-template-columns: 75% 1fr;
+gap: 15px;
+align-items: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #A52A2A;
+    color: white;
+}
+
+.grid-layout-leben {
+    display: grid;
+    grid-template-columns: 80% 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.grid-layout-leben2 {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+.leben {
+    text-align: center;
 }
 
 /* Footer Styles */
@@ -61,3 +101,4 @@ footer {
     background-color: #f4f4f4;
     border-top: 2px solid #ccc;
 }
+
